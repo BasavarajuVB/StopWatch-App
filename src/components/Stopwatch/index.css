@@ -1,0 +1,111 @@
+/* Write CSS here */
+.bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-sm-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 10px;
+}
+@media screen and (min-width: 576px) {
+  .bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/stopwatch-lg-bg.png');
+    height: 100vh;
+    background-size: cover;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .timer-container {
+    width: 350px;
+    height: 350px;
+  }
+}
+.main-heading {
+  font-size: 32px;
+  font-family: 'roboto';
+  font-weight: 600;
+  text-align: center;
+}
+.timer-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0px 4px 16px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-img-text {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0px;
+}
+img {
+  margin-right: 12px;
+}
+@media (max-width: 570px) {
+  .timer-container {
+    width: 90%;
+    margin: auto;
+    height: 300px;
+  }
+  .bg-container {
+    padding-top: 80px;
+  }
+}
+.buttons-container {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  margin: 15px;
+}
+p {
+  font-family: 'roboto';
+  font-size: 24px;
+  font-weight: 600;
+  color: #333333;
+}
+.start-btn {
+  color: #ffffff;
+  background-color: #1db05f;
+  padding: 1px;
+  width: 60px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  padding: 5px;
+  border-radius: 5px;
+}
+.stop-btn {
+  color: #ffffff;
+  background-color: #ef0d36;
+  padding: 1px;
+  width: 60px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+}
+.reset-btn {
+  color: #ffffff;
+  background-color: #eaa800;
+  padding: 1px;
+  width: 60px;
+  cursor: pointer;
+  outline: none;
+  border: 0px;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 45px;
+}
+@media (width: <500px) {
+  .timer-container {
+    height: 500px;
+  }
+}
